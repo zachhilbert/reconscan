@@ -9,7 +9,7 @@
 
 I found this recon script from Mike and consolidated the files into 1 main file using argparse to make it easier to run specific scans.  It doesn't always work as expected, but ***expect*** that for now.  I haven't taken the time to work out the quirks since I use it right now for the OSCP lab.
 
-## Mike's Orignial Readme Text
+## Original Readme Text
 
 This readme file pertains to the reconscan.py script and all associated scripts. 
 
