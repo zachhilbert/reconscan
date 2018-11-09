@@ -62,7 +62,7 @@ def httpEnum(ip_address, port, OUTDIR):
         HTTPSCAN = ('nmap -sV -Pn -vv -p %s '
                     '--script=http-vhosts,http-userdir-enum,http-apache-negotiation,'
                     'http-backup-finder,http-config-backup,http-default-accounts,'
-                    'http-email-harvest,http-methods,http-method-tamper,http-passwd,http-robots.txt '
+                    'http-methods,http-method-tamper,http-passwd,http-robots.txt '
                     '-oA %s_http %s') % (port, os.path.join(OUTDIR, ip_address), ip_address)
         nmap_file = '%s_http.nmap' % os.path.join(OUTDIR, ip_address)
         if not os.path.exists(nmap_file):
